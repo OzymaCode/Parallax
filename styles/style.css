@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section div {
+  width: 100%;
+  height: 100%;
+}
+section .a {
+  background: linear-gradient(rgb(12, 12, 12), rgb(20, 20, 20));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .a span {
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section .b {
+  background: url("../img/parallax1.avif");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .b span {
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section .c {
+  background: linear-gradient(rgb(58, 207, 212), rgb(70, 203, 207));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .c span {
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section .d {
+  background: url("../img/parallax3.avif");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .d span {
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section .e {
+  background: linear-gradient(rgb(255, 142, 37), rgb(255, 154, 59));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .e span {
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 1300px) {
+  section .b {
+    background: url("../img/parallax2.avif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .b span {
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}/*# sourceMappingURL=style.css.map */
